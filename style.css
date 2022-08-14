@@ -9,6 +9,7 @@
   --main-color: #be3144;
   --main-text-color: #eee;
 }
+
 .nav {
   display: flex;
   justify-content: end;
@@ -80,4 +81,44 @@
   height: calc(100% - 6.8rem);
   width: 100%;
   display: block;
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background-color: #303841;
+  color: var(--main-text-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+footer h2 {
+  font-size: 50px;
+  font-weight: 700;
+
+}
+
+footer p {
+  font-style: italic;
+  padding: 15px;
+}
+
+.section-grid a {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 20px;
+
+  background-color: #303841;
+}
+
+.sub-footer-link {
+  display: flex;
+
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
 }
